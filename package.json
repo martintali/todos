@@ -1,7 +1,14 @@
 {
   "name": "todos",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martintali/todos.git"
+  },
+  "description": "TODO list",
+  "license": "MIT",
   "dependencies": {
-    "angular": "~1.5.5"
+    "angular": "~1.5.5",
+    "bootstrap": "~3"
   }
 }
