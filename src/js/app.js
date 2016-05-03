@@ -21,5 +21,21 @@ app.controller('TodoItemController', [function(){
     };
 }]);
 
+app.directive('todo', function(){
+   return {
+       restrict: 'E',
+       templateUrl: 'todo-item.html'
+   };
+});
+
 var todos = [
+    {
+        description: 'Prueba 1',
+    },
+    {
+        description: 'Prueba 1',
+    },
+    {
+        description: 'Prueba 1',
+    }
 ];

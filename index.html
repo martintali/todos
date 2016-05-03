@@ -24,15 +24,8 @@
         </div>
         <div class="clearfix"></div>
         <div class="row" ng-show="todoList.todos.length">
-            <div class="row" ng-repeat="todo in todoList.todos">
-                <div class="col-lg-8">
-                    <p class="lead">{{todo.description}}</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <button class="btn btn-danger glyphicon glyphicon-trash" ng-click="todoList.removeTodo(todo)"></button>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
+            <todo ng-repeat="todo in todoList.todos">
+            </todo>
         </div>
 
         <footer class="footer">
